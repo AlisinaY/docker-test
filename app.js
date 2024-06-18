@@ -6,7 +6,7 @@ const todoRoutes = require("./routes/todo.js");
 const app = express();
 
 // Connect to MongoDB
-mongoose.connect("mongodb://admin:password@54.204.211.108:27017/");
+mongoose.connect("mongodb://admin:password@3.90.230.35:27017//");
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
